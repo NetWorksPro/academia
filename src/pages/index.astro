@@ -15,6 +15,7 @@ const { fullName, title, institute, research_areas } = profile
 ---
 
 <Layout>
+        <!-- home -->
 	<!-- Hero Section -->
 	<section class='flex items-center gap-12 border-b pb-12'>
 		<Hero
@@ -28,10 +29,12 @@ const { fullName, title, institute, research_areas } = profile
 	<!-- Research Areas -->
 	<section class='py-12 border-b'>
 		<Grid gridTitle='Research Areas' gridItems={research_areas} />
+Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
 	</section>
 
 	<!-- Recent Publications -->
 	<section class='py-12 border-t'>
 		<ArticleList listTitle='Recent Publications' listItems={publications} />
+Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
 	</section>
 </Layout>
