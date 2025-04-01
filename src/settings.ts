@@ -1,10 +1,10 @@
 export const profile = {
-	fullName: 'Your Name',
-	title: '',
-	institute: '',
-	author_name: '', // Author name to be highlighted in the papers section
+	fullName: 'NetWorks',
+	title: 'NetWorksPro',
+	institute: 'MicroBlog',
+	author_name: 'NetWork', // Author name to be highlighted in the papers section
 	research_areas: [
-		// { title: 'Physics', description: 'Brief description of the research interest', field: 'physics' },
+		// { title: 'Physics', description: 'Brief description of the research interest', field: 'physics' 描述},
 	],
 }
 
@@ -26,7 +26,7 @@ export const template = {
 	transitions: true,
 	lightTheme: 'light', // Select one of the Daisy UI Themes or create your own
 	darkTheme: 'dark', // Select one of the Daisy UI Themes or create your own
-	excerptLength: 200,
+	excerptLength: 0, // 200字
 	postPerPage: 5,
     base: '/academia' // Repository name starting with /
 }
