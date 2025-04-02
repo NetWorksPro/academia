@@ -3,7 +3,7 @@ export const profile = {
 	title: 'Reading',
 	institute: 'MicroBlog',
 	author_name: 'NetWork', // Author name to be highlighted in the papers section
-	research_areas: 每日一读,阅读分享，心灵鸡汤，情感世界[
+	research_areas: [每日一读,阅读分享，心灵鸡汤，情感世界
 		// { title: 'Physics', description: 'Brief description of the research interest', field: 'physics' 描述},
 	],
 }
