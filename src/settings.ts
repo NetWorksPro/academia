@@ -1,6 +1,6 @@
 export const profile = {
-	fullName: 'NetWorks',
-	title: 'NetWorksPro',
+	fullName: 'read',
+	title: 'reading',
 	institute: 'MicroBlog',
 	author_name: 'NetWork', // Author name to be highlighted in the papers section
 	research_areas: [
@@ -10,7 +10,7 @@ export const profile = {
 
 // Set equal to an empty string to hide the icon that you don't want to display
 export const social = {
-	email: '',
+	email: 'hello@youname.com',
 	linkedin: '',
 	x: 'https://www.x.com/',
 	github: '',
@@ -28,7 +28,7 @@ export const template = {
 	darkTheme: 'dark', // Select one of the Daisy UI Themes or create your own
 	excerptLength: 0, // 200字
 	postPerPage: 5,
-    base: '/academia' // Repository name starting with /
+    base: '/reading' // Repository name starting with /
 }
 
 export const seo = {
