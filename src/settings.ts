@@ -26,7 +26,7 @@ export const template = {
 	transitions: true,
 	lightTheme: 'light', // Select one of the Daisy UI Themes or create your own
 	darkTheme: 'dark', // Select one of the Daisy UI Themes or create your own
-	excerptLength: 0, // 200字
+	excerptLength: 10, // 200字
 	postPerPage: 5,
     base: '/reading' // Repository name starting with /
 }
